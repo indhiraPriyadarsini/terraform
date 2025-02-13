@@ -101,7 +101,7 @@ variable "db_username" {
 }
 variable "db_password" {
     type = string
-    default = "Pass1234"
+    default = ""
 }
 variable "db_parameter_group_name" {
     type = string
